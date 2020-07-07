@@ -35,3 +35,6 @@ urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += [
 	path('accounts/', include('django.contrib.auth.urls')),
 ]
+
+admin.site.site_header = 'Campaign Management Panel'
+admin.site.site_title = 'Campaign Management'
