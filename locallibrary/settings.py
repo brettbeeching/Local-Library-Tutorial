@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '8yrqaz4!xk9)uy^18#ok&64oi-1pq@
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sleepy-stream-22844.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
